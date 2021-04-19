@@ -13,7 +13,7 @@
   margin: 0;
   padding: 20px; 
   font-size: 3.5em; 
-  text-shadow: 2px 2px 2px whitesmoke, -2px -2px 2px whitesmoke;
+  text-shadow: 2px 2px 5px whitesmoke, -2px -2px 5px whitesmoke;
 }
 
 .btn-container {
@@ -23,30 +23,42 @@
 .video-link {
   text-decoration: none;
   position: fixed; 
-  top: 36%;
-  left: 41%;
+  top: 30%;
+  left: 40%;
 }
 
 .video-link-background {
   display: flex; 
   justify-content: center; 
   align-items: center; 
+  /* background: url("./assets/annie-spratt-osuiatBDTww-unsplash.jpg") center;
+  background-size: cover;  */
   background: black;
-  height: 200px; 
-  width: 200px;
+  height: 300px; 
+  width: 300px;
   border-radius: 50%;   
 }
 
-.video-link-background:hover {
+.video-link-background-hover:hover {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 300px; 
+  width: 300px;
+  border-radius: 50%;   
   background: rgb(126, 4, 47); 
+  opacity: 0.5; 
 }
 
 .video-link-text {
+  font-size: 2em; 
+  text-shadow: 2px 2px 5px whitesmoke, -2px -2px 5px whitesmoke;
+  font-weight: 600; 
   color: white; 
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .video-link-background {
     animation: App-logo-spin infinite 20s linear;
   }
 }

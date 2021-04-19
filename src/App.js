@@ -12,7 +12,9 @@ const App = ()  => {
       <section className="btn-container">
         <Link to="/video" className="video-link">
           <div className="video-link-background">
-            <p className="video-link-text">CLICK ME</p>
+            <div className="video-link-background-hover">
+              <p className="video-link-text">CLICK ME</p>
+            </div>
           </div>
         </Link>
       </section>

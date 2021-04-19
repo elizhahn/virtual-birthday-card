@@ -5,3 +5,15 @@
 .video-player {
   width: 800px; 
 }
+
+.go-back-icon {
+  position: fixed;
+  top: 5%; 
+  left: 5%; 
+  height: 50px;
+  width: 50px;  
+}
+
+.go-back-icon:hover {
+  color: rgb(126, 4, 47); 
+}
