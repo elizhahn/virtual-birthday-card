@@ -1,14 +1,48 @@
 .App {
   text-align: center;
   height: 100%;
+  background: url("./assets/laura-vinck-Hyu76loQLdk-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover; 
 }
 
 .root-container {
   height: 100%; 
 }
 
-.video-container {
+.title {
+  margin: 0;
+  padding: 20px; 
+  font-size: 3.5em; 
+  text-shadow: 2px 2px 2px whitesmoke, -2px -2px 2px whitesmoke;
+}
+
+.btn-container {
   height: 100%; 
+}
+
+.video-link {
+  text-decoration: none;
+  position: fixed; 
+  top: 36%;
+  left: 41%;
+}
+
+.video-link-background {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background: black;
+  height: 200px; 
+  width: 200px;
+  border-radius: 50%;   
+}
+
+.video-link-background:hover {
+  background: rgb(126, 4, 47); 
+}
+
+.video-link-text {
+  color: white; 
 }
 
 @media (prefers-reduced-motion: no-preference) {

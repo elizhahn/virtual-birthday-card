@@ -1,9 +1,10 @@
 import React from 'react';
+import './Video.css';
 
 const Video = () => {
   return (
     <section className="video-container">
-    <video controls width="250">
+    <video controls className="video-player">
       <source src="" type="video/mp4"/>
     </video>
   </section>
