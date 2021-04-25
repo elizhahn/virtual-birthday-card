@@ -18,21 +18,21 @@
 
 .btn-container {
   height: 100%; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;  
 }
 
 .video-link {
+  margin-top: 30px; 
   text-decoration: none;
-  position: fixed; 
-  top: 30%;
-  left: 40%;
 }
 
 .video-link-background {
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  /* background: url("./assets/annie-spratt-osuiatBDTww-unsplash.jpg") center;
-  background-size: cover;  */
   background: black;
   height: 300px; 
   width: 300px;
@@ -76,4 +76,11 @@
   display: flex; 
   justify-content: center; 
   align-items: center; 
+}
+
+@media screen and (min-width: 480px) {
+  .title {
+    padding: 0px; 
+  }
+
 }
