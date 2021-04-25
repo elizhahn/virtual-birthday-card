@@ -7,9 +7,7 @@ const Video = () => {
   return (
     <section className="video-container">
       <Link to="/"><TiArrowBack className="go-back-icon"/></Link>
-      <video controls className="video-player">
-        <source src="" type="video/mp4"/>
-      </video>
+      <iframe title="happy birthday mom" width="620" height="415" src="https://www.youtube.com/embed/OdwHRyxf_zA" allowFullScreen></iframe>
    </section>
   )
 }
